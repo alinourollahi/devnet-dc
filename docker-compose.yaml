@@ -3,7 +3,7 @@ version: '3'
 services:
   devnet-dc1:
     image: alinourollahi/devnet
-    container_name: devnet-dc1
+    container_name: devnet-dc
     tty: true
     stdin_open: true
     restart: always

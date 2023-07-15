@@ -6,6 +6,7 @@ RUN apt install python3 -y
 RUN apt install python3-pip -y
 RUN apt install curl -y
 RUN apt install iproute2 -y
+RUN apt install ansible -y
 
 RUN mkdir /root/devnet
 

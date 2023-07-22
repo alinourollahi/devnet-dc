@@ -7,6 +7,8 @@ RUN apt install python3-pip -y
 RUN apt install curl -y
 RUN apt install iproute2 -y
 RUN apt install ansible -y
+RUN apt install vim -y
+RUN apt install python3-paramiko -y
 
 RUN mkdir /root/devnet
 

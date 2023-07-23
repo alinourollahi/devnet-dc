@@ -9,6 +9,7 @@ RUN apt install iproute2 -y
 RUN apt install ansible -y
 RUN apt install vim -y
 RUN apt install python3-paramiko -y
+RUN apt install python3-netmiko -y
 
 RUN mkdir /root/devnet
 
